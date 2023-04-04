@@ -1,0 +1,30 @@
+.heading{
+  /* font-size: 50px;
+  color: crimson;
+  font-weight: normal; */
+  /* bx */
+  box-sizing: border-box;
+  /* bgc */
+  background-color: #fff;
+  /* tt */
+  text-transform: uppercase;
+  /* ta */
+  text-align: left;
+  /* posr */
+  position: relative;
+  position: absolute;
+  /* ta:c */
+  text-align: center;
+  /* fl:r */
+  float: left;
+  float: right;
+  /* fz:2em */
+  font-size: 30px;
+  font-size: 2em;
+
+  /* w100vh */
+  width: 100vh;
+
+  /* bdrs50p */
+  border-radius: 50%;
+}
