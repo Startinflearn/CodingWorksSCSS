@@ -1,0 +1,18 @@
+h1 {
+  font-size: 50px;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+h1 span {
+  color: crimson;
+}
+h1 span:hover {
+  color: royalblue;
+}
+
+body {
+  font-size: 18px;
+  color: #000;
+  line-height: 1.6em;
+}
