@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+* {
+  font-family: "Montserrat", serif;
+}
+
+/* button */
+.btn {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.35s;
+}
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* frame div */
+.frame {
+  display: flex;
+  gap: 10px;
+}
+.frame div {
+  border: 1px solid #000;
+  flex: 1;
+  height: 150px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center; /*중앙정렬*/
+  align-items: center; /*중앙정렬*/
+}
+.frame div:nth-child(1) {
+  background-color: crimson;
+}
+.frame div:nth-child(2) {
+  background-color: yellowgreen;
+}
+.frame div:nth-child(3) {
+  background-color: royalblue;
+}
+.frame div:hover {
+  color: #fff;
+  transform: translateY(-10px);
+  transition: 0.35s;
+}

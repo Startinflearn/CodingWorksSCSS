@@ -1,0 +1,66 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+body {
+  font-family: "Montserrat", serif;
+}
+
+/*** - 클래스를 이용해서 scss 적용
+.frame {
+    margin: 15px;
+    .btn{
+        text-align: center;
+        width: 200px;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        &.confirm{
+            background-color: yellowgreen;
+        }
+        &.warning {
+            background-color: crimson;
+        }
+    }
+
+}
+*/
+/* 태그를 이용해서 scss 적용 */
+.frame {
+  margin: 15px;
+}
+
+button.btn {
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+button.confirm {
+  background-color: yellowgreen;
+}
+
+button.warning {
+  background-color: crimson;
+}
+
+/* @at-root방식
+.frame{
+    margin: 15px;
+    @at-root button.btn{
+        padding: 10px;
+        text-align: center;
+        width: 200px;
+        border: none;
+        border-radius: 5px;
+        color: #fff;    
+    }
+    @at-root button.confirm{
+        background-color: yellowgreen;
+    }
+    @at-root button.warning {
+        background-color: crimson;
+    }
+}
+*/
