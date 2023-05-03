@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    font-family: 'Montserrat',serif;
+    box-sizing: border-box;
+}
+body {
+    font-size: 15px;
+    background-color: #eee;
+    list-style: 1.6em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*Sign in*/
+.signin {
+    .sign-inner{
+        border: 1px solid #ccc;
+        background-color: #fff;
+        padding: 20px;
+        width: 350px;
+    }
+    h1{
+        text-align: center;
+        font-weight: normal;
+        margin-top: 0;
+    }
+    input[type=button],
+    input[type=email],
+    input[type=password],
+    input[type=submit] {
+        display: block; // 모든요소가 width 100% 된다. input button 제외
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0; // 상하 | 좌우
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        outline: none;
+    }
+    input[type=button]{
+        margin-bottom: 20px;
+        cursor: pointer;
+        background: #fff;
+        &:hover {
+            background-color: #dff141;
+            color: #fff;
+        }
+    }
+    input[type=submit]{
+        background-color: #27ae60 ;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    input[type=email]:focus{
+        background: #ffe68d; 
+       }
+}
