@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", serif;
+  font-size: 18px;
+  font-width: 500px;
+  line-height: 1.6em;
+}
+
+.photofolio p {
+  text-align: center;
+  text-overflow: hidden;
+  text-transform: uppercase;
+}
