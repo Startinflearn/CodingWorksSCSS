@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+     box-sizing: border-box;
+     font-family: 'Montserrat',serif;
+}
+
+/*Variables*/
+$primary-btn: skyblue;
+$Secondary-btn: yellow;
+$Warning-btn: red;
+/*Button*/
+.btns{
+  .btn{
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: #Fff;
+  }
+  .Primary {
+    background-color:$primary-btn;
+  }
+  .Secondary{
+    background-color: $Secondary-btn;
+  }
+  .Warning {
+    background-color:$Warning-btn;
+  }
+}
