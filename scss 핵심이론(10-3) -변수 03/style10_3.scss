@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+     box-sizing: border-box;
+     font-family: 'Montserrat',serif;
+}
+
+/*Variables 전역변수*/
+$crimson : crimson;
+$black : #000;
+
+.portfoilo {
+  
+/*Variables 지역변수
+        $crimson : crimson;
+        $black : #000;
+*/
+  color: #000;
+  h1{
+    color: $black;
+  }
+}
+.headline {
+  color:crimson;
+  h2 {
+    color: $black;
+  }
+}
+
+/*
+  순수 css 에서 :root {
+  --변수명 : 값 ;
+      
+  :root {
+    --primary-color: #222;
+    --secondary-color: #444;
+  }
+  .portfoilo {
+    color: var(--primary-color)
+  }
+  */
