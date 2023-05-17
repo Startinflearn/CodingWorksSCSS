@@ -1,0 +1,13 @@
+/*Google web Font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/*Reset.css
+  가능하면 쓰지않는 방향으로 하기
+*/
+//@import url("../reset.css");
+@import "../reset";
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat',serif;
+}
